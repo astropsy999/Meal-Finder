@@ -4,11 +4,31 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Menu Slider Modal DOM CSS</title>
+	<link rel="stylesheet" href="/style.css">
+	<link rel="stylesheet" href="/all.min.css">
+	<link rel="stylesheet" href="/fontawesome.min.css">
+	<title>Meal Finder</title>
 </head>
 
 <body>
+	<container class="container">
+		<h1>Meal Finder</h1>
+		<div class="flex">
+			<form action="" class="flex" id="submit">
+				<input type="text" id="search" placeholder="Search for meals or keyword">
+				<button class="search-btn"><i class="fa fa-search"></i></button>
 
+			</form>
+			<button id="random" class="random-btn" type="submit">
+				<i class="fa fa-random"></i>
+			</button>
+		</div>
+	</container>
+	<div id="results-heading"></div>
+	<div id="meals" class="meals"></div>
+	<div id="single-meal"></div>
+	<script src="/script.js"></script>
+	<script src="https://use.fontawesome.com/3b88e000af.js"></script>
 </body>
 
 </html>
